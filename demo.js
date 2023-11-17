@@ -143,13 +143,17 @@
 
 // myCalculator(5,5);
 
-function myDisplayer(some) {
-  document.getElementById("demo").innerHTML = some;
-}
+//Callback function
 
-function myCalculator(num1, num2, myCallback) {
-  let sum = num1 + num2;
-  myCallback(sum);
-}
+// function myDisplayer(some) {
+//   document.getElementById("demo").innerHTML = some;
+// }
 
-myCalculator(5, 5, myDisplayer);
+// function myCalculator(num1, num2, myCallback) {
+//   let sum = num1 + num2;
+//   myCallback(sum);
+// }
+
+// myCalculator(5, 5, myDisplayer);
+/* When you pass a function as an argument, remember not to use parentsesis Right = myCalculator(5, 5, myDisplayer);
+Wrong = myCalculator(5, 5, myDisplater());*/

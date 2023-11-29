@@ -3,7 +3,7 @@ import { Component } from "react";
 
 class Welcome extends Component {
   render() {
-    return <h1>Wecome Rhonda. This is a class component.</h1>;
+    return <h1>Welcome Rhonda. This is a class component.</h1>;
   }
 }
 

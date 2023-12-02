@@ -5,6 +5,11 @@ import FavoriteColor from "./components/FavoriteColor";
 import FunctionClick from "./components/FunctionClick";
 import { Greet, Greet2, Greet3 } from "./components/Greet";
 import { Welcome, Welcome2 } from "./components/Welcome";
+import Parent from "./components/Parent";
+import Table from "./components/Table";
+import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+import React, { Component } from "react";
 function App() {
   return (
     <div className="App">
@@ -22,6 +27,10 @@ function App() {
         <EventBind />
         <FavoriteColor />
         <Counter />
+        <Parent />
+        <Table />
+        <ParentComponent />
+        <UserGreeting />
       </header>
     </div>
   );
